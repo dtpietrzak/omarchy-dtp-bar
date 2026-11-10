@@ -4,7 +4,7 @@ Omarchy's bar with one change: its glassy background is as solid as the theme sa
 
 The number is `glass-alpha` in the `[dtp]` section of the shell settings, which `omarchy-dtp-theme` sets (`shell.dtp.toml`). Without the theme it falls back to 0.35, which is stock.
 
-It replaces the stock bar while enabled. Two places in `Bar.qml` differ from stock: the `glassBackground` line, and a `Layout.leftMargin` in `ModuleSlot` that pulls the clock closer to the battery, so the gaps along the bar match.
+It replaces the stock bar while enabled. Two places in `Bar.qml` differ from stock: the `glassBackground` line, and a `Layout.leftMargin` in `ModuleSlot` that pulls the clock closer to the battery, so the gaps along the bar match. It applies only while the clock is in the bar's right group.
 
 ## Install
 
