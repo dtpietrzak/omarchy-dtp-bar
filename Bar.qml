@@ -2855,6 +2855,9 @@ Item {
     property string region: ""
     property string fixedEdge: "center"
     property var pool: null
+    // dtp: the clock's own side padding leaves it further from the battery than
+    // the other bar items are from each other. Pull it in to match.
+    Layout.leftMargin: moduleName === "omarchy.clock" && !root.vertical ? -Style.spaceReal(5) : 0
     // The bar surface its section is drawn on.
     property var window: null
     // The widget, while the slot holds it (WidgetPool.claim).
