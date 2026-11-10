@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.dtpietrzak.bar",
+  "name": "DTP bar",
+  "version": "1.0.0",
+  "author": "dtpietrzak",
+  "description": "The Omarchy bar with its glassy background as solid as the theme says (dtp glass-alpha), so the dtp menus and flyouts match it.",
+  "homepage": "https://github.com/dtpietrzak/omarchy-dtp-bar",
+  "kinds": [
+    "bar"
+  ],
+  "entryPoints": {
+    "bar": "Bar.qml"
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.bar"
+  }
+}
